@@ -29,7 +29,7 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'MSDN Platforms Subscription - $100 (b7b9d092-6afa-464a-aa2f-019125953c91)'
+    azureSubscription: 'Anonymous'
     appType: 'webApp'
     WebAppName: 'test-launch'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
